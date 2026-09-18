@@ -1,0 +1,21 @@
+# --- Data & model artifacts ---
+# Regenerate with src/generate_dataset.py, or link to an external download
+# (Google Drive, GitHub Release) in README.md instead of committing these.
+data/*.h5
+models/*.keras
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# --- Editor ---
+.vscode/
+
+# --- Local-only folders: not part of the published project ---
+# ("Reseach papers/" currently mixes reference PDFs, the final notebook,
+# and personal documents -- move anything you want in the repo into
+# notebooks/ or figures/ first, see the setup notes.)
+Reseach papers/
+New folder/
